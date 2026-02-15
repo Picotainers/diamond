@@ -1,4 +1,4 @@
-name: Build and Publish Distroless diamond
+name: Build and Publish diamond
 
 on:
   push:

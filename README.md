@@ -1,5 +1,5 @@
 # diamond
-Small, distroless-when-possible container for `diamond`.
+Small compatibility-focused container for `diamond`.
 
 ## how to use
 ```bash
