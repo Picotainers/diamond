@@ -1,7 +1,11 @@
 # diamond
-Small compatibility-focused container for `diamond`.
 
-## how to use
+## Quick Usage
+
 ```bash
-docker run --rm -v "$(pwd):/data" picotainers/diamond:latest --help
+# Pull the image
+docker pull docker.io/picotainers/diamond:latest
+
+# Run the tool
+docker run --rm docker.io/picotainers/diamond:latest diamond --help
 ```
