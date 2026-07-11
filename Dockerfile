@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     cmake \
     zlib1g-dev \
     libbz2-dev \
+    libsqlite3-dev \
     && rm -rf /var/lib/apt/lists/*
 
 RUN git clone --depth 1 https://github.com/bbuchfink/diamond.git /src/diamond && \
